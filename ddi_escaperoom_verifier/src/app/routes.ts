@@ -21,4 +21,4 @@ export const router = createBrowserRouter([
     path: "/fail",
     Component: FailScreen,
   },
-]);
+], { basename: import.meta.env.BASE_URL });
